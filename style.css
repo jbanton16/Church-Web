@@ -1,0 +1,170 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+/*navigation bar*/
+.navbar{
+	background-color: #2F5659;
+}
+
+.navbar-brand{
+	font-weight: bolder;
+}
+
+#social-links ul{
+	margin:0;
+	padding:0;
+	display: flex;
+	list-style: none;
+}
+
+#social-links ul li{
+	padding:10px 20px;
+}
+
+#social-links a{
+	color:black;
+}
+
+#social-links li:hover{
+	background-color: #2F5659;
+}
+
+/*Title of page*/
+.title{
+	margin-top: 65px;
+	margin-bottom: 0;
+	font-family: 'Anton', sans-serif;
+	color:#2F5659;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+.sub-title{
+	margin-top:0;
+	margin-bottom: 10px;
+	padding: 0;
+	font-family:  'Lora', serif;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	color:#2F5659;
+	letter-spacing: 8px;
+}
+
+/*picture slide*/
+.carousel-item img{
+	height:500px;
+}
+
+/*about us*/
+
+.about-us{
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.left{
+	width:25%;
+	height:auto;
+	background-color: #63B3BA;
+}
+
+.left img{
+	margin:0;
+	padding:0;
+	width:275px;
+	height:190px;
+}
+
+.left h1{
+	margin:0;
+	padding:10px;
+	font-family: 'Anton', sans-serif;
+	font-size: 35px;
+}
+
+.left p{
+	margin:0;
+	padding:10px;
+	color:white;
+}
+
+.right{
+	width:80%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.right h1{
+	width:100%;
+	font-family: 'Anton', sans-serif;
+	color:#2F5659;
+	letter-spacing: 5px;
+}
+
+.right h2{
+	width:100%;
+}
+
+.content-left{
+	padding:20px;
+	width:40%;
+}
+
+.content-right{
+	padding:20px;
+	width:40%;
+}
+
+/*church activity*/
+#activities h1{
+	margin-top:20px;
+	text-align: center;
+}
+
+#testimony h1{
+	margin-top:20px;
+	text-align: center;
+}
+
+.card{
+	margin-top: 20px;
+	text-align: center;
+	justify-content: center;
+}
+
+.card img{
+	width:100%;
+	height:250px;
+}
+
+/*Sign-up form*/
+.jumbotron{
+	height:580px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.jumbotron h1{
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 5px;
+
+}
+
+.jumbotron p{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+.button{
+	color:white;
+	border:1px solid #2F5659;
+	background-color: #2F5659;
+}
